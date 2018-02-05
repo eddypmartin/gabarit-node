@@ -2,27 +2,40 @@
 <html>
 <head>
 	<title>Template Node.js</title>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://use.fontawesome.com/e64c71857d.js"></script>
+
 </head>
 <body>
-	<div class="global">
-		<header>Projet Veille Node.js</header>
+	<div class="global couleur-entete">
+		<header class='entete'>
+			<h1>Projet Veille Node.js</h1>
+			<h2>Tim - Collège de Maisonneuve</h2>
+		</header>
 	</div>
-	<div class='global'>
-		<nav class='menu'>
-			<a href="#">Acceuil</a>
-			<a href="#">Province</a>
-			<a href="#">Membre</a>
-			<a href="#">Chat</a>
-		</nav>
+	<div class="global couleur-menu">
+		<nav class='menu'> 		 
+		 <a href='/'><i class="fa fa fa-users" aria-hidden="true"></i>Accueil</a>
+		 <a href='/vider'><i class="fa fa-industry" aria-hidden="true"></i>Vider</a>
+		 <a href='/list'><i class="fa fa-graduation-cap" aria-hidden="true"></i>Adresse</a>
+		 <a href='/peupler'><i class="fa fa-keyboard-o" aria-hidden="true"></i>Peupler</a>
+		</nav> 
 	</div>	
-	<div class="global">
-		<main></main>
+	<div class="global couleur-main">
+		<main class='principal'></main>
 	</div>	
-	<div class="global">
-		<footer></footer>
+	<div class="global couleur-footer ">
+		<footer class='pied-page'>
+			Collège de Maisonneuve
+			TIM
+			Programmation et veille technologique
+		</footer>
 	</div>	
-
 </body>
 </html>
